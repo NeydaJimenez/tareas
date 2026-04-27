@@ -1,7 +1,7 @@
 import flet as ft
 
 def main(page: ft.Page):
-    page.title = "Inicio de sesión"
+    page.title = "INICIO DE SESION"
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
 
@@ -29,7 +29,7 @@ def main(page: ft.Page):
     pagina_inicio = ft.Column(
         [
             ft.Text("Bienvenido al Sistema", size=28, weight=ft.FontWeight.BOLD, color="pink100"),
-            ft.Text("Has iniciado sesión correctamente", color="pink100")
+            ft.Text("Has Iniciado Sesión Correctamente", color="pink100")
         ],
         alignment=ft.MainAxisAlignment.CENTER,
         horizontal_alignment=ft.CrossAxisAlignment.CENTER
@@ -38,7 +38,7 @@ def main(page: ft.Page):
     pagina_explorar = ft.Column(
         [
             ft.Icon(ft.Icons.EXPLORE, size=60, color="pink100"),
-            ft.Text("Explorar contenido", size=25, color="pink100")
+            ft.Text("Explorar Contenido", size=25, color="pink100")
         ],
         alignment=ft.MainAxisAlignment.CENTER,
         horizontal_alignment=ft.CrossAxisAlignment.CENTER
@@ -122,7 +122,7 @@ def main(page: ft.Page):
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
             spacing=15,
             controls=[
-                ft.Text("Iniciar sesión", size=30, weight="bold", color="pink200"),
+                ft.Text("INICIO DE SESION", size=30, weight="bold", color="pink200"),
                 correo,
                 contraseña,
                 ft.ElevatedButton(
